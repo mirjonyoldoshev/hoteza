@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  padding-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar button {
+  width: 204px;
+  height: 39px;
+  border-radius: 30px;
+  background-color: #000000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+.section--text {
+  margin-left: 30px;
+  width: 628px;
+  height: 296px;
+  font-family: Roboto;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 74px;
+  color: rgb(255, 255, 255);
+}
+
+.bcg {
+  background: url("./images/bck.png") no-repeat;
+
+  height: 720px;
+}
+.card1 {
+  width: 622px;
+  height: 560px;
+
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.card1 h3 {
+  margin-left: 87px;
+  margin-top: 20px;
+  width: 462px;
+  height: 116px;
+  font-family: Roboto;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.card1 p {
+  margin-left: 47px;
+  margin-top: 71px;
+  width: 534px;
+  height: 120px;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #9a9696;
+}
+.card1 img {
+  margin-top: 51px;
+  margin-left: 271px;
+}
+.cards {
+  margin-top: 100px;
+  display: flex;
+  gap: 30px;
+}
+.bcg--color {
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 113px;
+  background-color: #a9ff2c;
+  height: 260px;
+}
+.bcg--color p {
+  margin-top: 13px;
+  margin-left: 30px;
+
+  font-family: Roboto;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 51px;
+  letter-spacing: 0em;
+}
+.text-1 h5 {
+  margin-left: 30px;
+  margin-top: 80px;
+  width: 558px;
+  height: 116px;
+  font-family: Roboto;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.text-2 h5 {
+  margin-top: 95px;
+  width: 486px;
+  height: 90px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #958e8e;
+}
+.text {
+  display: flex;
+  justify-content: space-between;
+}
+.phone--cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  grid-gap: 100px;
+}
+.phone--card {
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.phone--card--top {
+  display: flex;
+  width: 100%;
+  background: #f1f1f1;
+  justify-content: center;
+  border-radius: 20px;
+}
+.phone--card--top img {
+  width: 50%;
+  height: 100%;
+}
+.phone--card--info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.phone--card--title {
+  font-size: 26px;
+  font-weight: 400;
+
+  text-align: center;
+}
+.phone--card--desc {
+  font-size: 20px;
+  font-weight: 400;
+
+  text-align: center;
+}
+
+.wrapper-cards {
+  margin-left: 10px;
+  padding: 40px;
+  background-color: rgb(254, 247, 237);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  position: absolute;
+}
+.cards-1 {
+  width: 320px;
+  bottom: 150px;
+  position: relative;
+}
+
+.cads-2 {
+  top: 120px;
+  width: 320px;
+  position: relative;
+}
+
+.cads-1 {
+  width: 320px;
+  position: relative;
+  top: 120px;
+}
+
+.section--text--about h6 {
+  margin-top: 379px;
+
+  width: 806px;
+  height: 290px;
+
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 58px;
+  color: #1c1c1b;
+}
+.section--text--about {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.section--text--2 {
+  margin-top: 197px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section--text--2 p {
+  width: 387px;
+  height: 90px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.section--text--2 h4 {
+  width: 384px;
+  height: 170px;
+  font-family: Roboto;
+  font-size: 52px;
+  font-weight: 400;
+}
+.laptop {
+  margin-top: 150px;
+}
+
+.laptop__title {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+}
+
+.laptop__desc {
+  font-size: 18px;
+  color: #00000080;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.laptop__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px;
+}
+
+.laptop__card__img img {
+  width: 100%;
+}
+
+.laptop__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.laptop__card__title {
+  font-size: 36px;
+  color: black;
+}
+
+.laptop__card__desc {
+  font-size: 20px;
+  color: #00000080;
+}
+.cards--bgc {
+  background: #a9ff2c;
+  border-radius: 20px;
+  padding: 30px;
+}
+.cards--bgc h4 {
+  font-size: 46px;
+  font-weight: 400;
+}
+.cards--6 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 138px;
+  background: #f1f1f1;
+  height: 720px;
+  border-radius: 20px;
+}
+.cards--6--about h6 {
+  margin-left: 47px;
+  width: 426px;
+  height: 232px;
+
+  font-size: 52px;
+  font-weight: 400;
+}
+.cards--6--about p {
+  margin-left: 10px;
+  margin-top: 63px;
+  max-width: 474px;
+  height: 150px;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.texts--h h4 {
+  font-size: 52px;
+  font-weight: 400;
+  width: 600px;
+  height: 114px;
+}
+.texts p {
+  width: 506px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #9a9696;
+}
+.site--text {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.texts--menu h1 {
+  width: 561px;
+  font-size: 52px;
+  font-weight: 400;
+}
+.texts--menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 800px;
+}
+.texts--menu p {
+  width: 506px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  color: #958e8e;
+}
+.sponsor {
+  padding-top: 51px;
+  gap: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 128px;
+}
+.information {
+  background: #a9ff2c;
+  border-radius: 20px;
+  padding: 12px 0 44px 30px;
+}
+.information p {
+  width: 1077px;
+  font-size: 46px;
+  font-weight: 400;
+}
